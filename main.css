@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: inherit;
+    font-weight: normal;
+}
+
+body {
+    background-color: #ddd;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    height: 100vh;
+}
+
+#mainPost {
+    background-color: #fff;
+    padding: 15px;
+}
+
+#mainUsername {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#posts {
+    background-color: #bbb;
+    padding: 20px;
+}
+
+.post {
+    background-color: #ccc;
+    display: flex;
+    min-height: 90px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.fa-circle-user {
+    font-size: 48px;
+    margin-right: 10px;
+    display: inline;
+    flex-grow: 1;
+}
+
+.postDetails {
+    flex-grow: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.username {
+    font-size: 14px;
+}
+
+.edit, .delete {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.editMode {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.editMode input {
+    min-width: 90%;
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.editMode button {
+    width: 50px;
+}
+
+#form {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#formInputs {
+    display: flex;
+    min-width: 90%;
+}
+
+#displayNameInput {
+    min-width: 64px;
+    margin-right: 10px;
+}
+
+#commentInput {
+    min-width: 80%;
+}
+
+input {
+    background-color: #eee;
+    padding: 3px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+button {
+    color: #a5c0e8;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #999;
+}
