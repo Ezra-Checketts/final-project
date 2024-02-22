@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #ddd;
+    background-color: #eee;
     padding: 0 10px;
     display: flex;
     justify-content: center;
@@ -44,23 +44,20 @@ h1 {
 }
 
 #posts {
-    background-color: #bbb;
-    padding: 20px;
+    background-color: #ddd;
 }
 
 .post {
-    background-color: #ccc;
+    background-color: #eee;
     display: flex;
     min-height: 90px;
     padding: 20px;
-    margin-bottom: 10px;
+    margin: 20px;
 }
 
 .fa-circle-user {
     font-size: 48px;
     margin-right: 10px;
-    display: inline;
-    flex-grow: 1;
 }
 
 .postDetails {
@@ -110,12 +107,13 @@ h2 {
 }
 
 #form {
-    background-color: #eee;
+    background-color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    width: 1000px;
 }
 
 #formInputs {
@@ -133,7 +131,7 @@ h2 {
 }
 
 input {
-    background-color: #eee;
+    background-color: #fff;
     padding: 3px;
     border: 1px solid #bbb;
     border-radius: 3px;

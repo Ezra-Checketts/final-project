@@ -4,6 +4,9 @@ $('#mainSubmit').on('click', ()=>{
     let id = postIdSequence++
     let displayName = $('#displayNameInput').val();
     let comment = $('#commentInput').val();
+    if (!displayName || !comment) {
+        return
+    }
     $('#displayNameInput').val('');
     $('#commentInput').val('');
     $('#posts').prepend(`
