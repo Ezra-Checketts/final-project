@@ -29,6 +29,8 @@ body {
 #mainPost {
     background-color: #fff;
     padding: 15px;
+    position: sticky;
+    top: 0;
 }
 
 #mainUsername {
@@ -112,6 +114,8 @@ h2 {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    bottom: 0;
 }
 
 #formInputs {
